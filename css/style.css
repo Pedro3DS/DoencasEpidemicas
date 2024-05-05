@@ -17,8 +17,34 @@
     z-index: 0;
 }
 
+.header-txt {
+    width: 95%;
+}
+
+.header-ref{
+    text-align: start;
+    width: 100%;
+    margin-top: 320px;
+    text-align: justify;
+}
+
+.header-ref a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+/* Media's */
 @media (max-width: 430px) {
     .header-img{
         border-radius: 0 0 50px 50px;
+    }
+}
+@media (max-width: 300px) {
+    .header-ref a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
     }
 }
